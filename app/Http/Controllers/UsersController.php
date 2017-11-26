@@ -89,4 +89,7 @@ class UsersController extends Controller {
     	return 'the logout did not work';
     }
 
+
 }
+
+
