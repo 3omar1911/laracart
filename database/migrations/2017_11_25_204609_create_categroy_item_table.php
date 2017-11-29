@@ -15,7 +15,7 @@ class CreateCategroyItemTable extends Migration
     {
         Schema::create('categroy_item', function (Blueprint $table) {
             $table->increments('id');
-             $table->integer('categroy_id')->unsigned();
+             $table->integer('category_id')->unsigned();
             $table->integer('item_id')->unsigned();            
             $table->timestamps();
             

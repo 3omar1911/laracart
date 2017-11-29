@@ -21,3 +21,5 @@ Route::get('users/login', 'UsersController@login');
 Route::post('users/authenticate', 'UsersController@authenticate');
 Route::get('users/logout', 'UsersController@logout')->middleware('auth');
 
+Route::resource('categories', 'CategoriesController');
+Route::resource('items', 'ItemsController');
